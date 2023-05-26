@@ -1,0 +1,32 @@
+{
+  "name": "ExpoUpdatesExample",
+  "displayName": "ExpoUpdatesExample",
+  "expo": {
+    "name": "ExpoUpdatesExample",
+    "slug": "expoupdatesexample",
+    "ios": {
+      "bundleIdentifier": "com.ExpoUpdatesExample"
+    },
+    "android": {
+      "package": "com.ExpoUpdatesExample"
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "http://localhost:3000/api/manifest"
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "itsm"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4e122dd7-6fab-468d-b5e2-aabcd931aa09"
+      }
+    },
+    "owner": "itsm"
+  }
+}
